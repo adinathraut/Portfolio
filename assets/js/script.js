@@ -190,15 +190,17 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 //Firebase Connectivity
 
+
+//Add your configurations replaced with X's below 
 const firebaseConfig = {
-  apiKey: "AIzaSyAmQaAddbdIojUTGrsCqM_7YZEQeOWjrmE",
-  authDomain: "adinath-s-portfolio.firebaseapp.com",
-  databaseURL: "https://adinath-s-portfolio-default-rtdb.firebaseio.com",
-  projectId: "adinath-s-portfolio",
-  storageBucket: "adinath-s-portfolio.appspot.com",
-  messagingSenderId: "579744592000",
-  appId: "1:579744592000:web:d5e2a5853c0f6b24bab665",
-  measurementId: "G-W06XVF3KG9"
+  apiKey: "XXXX",
+  authDomain: "XXXX",
+  databaseURL: "XXXX",
+  projectId: "XXXX",
+  storageBucket: "XXXX",
+  messagingSenderId: "XXXX",
+  appId: "XXXX",
+  measurementId: "XXXX"
 };
 firebase.initializeApp(firebaseConfig);
 
